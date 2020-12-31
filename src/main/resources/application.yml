@@ -1,0 +1,19 @@
+server.port: 8090
+
+batch.config.package-javaconfig: com.test
+batch.web.operations.base: /batch
+
+logging.file.path: c://batch/logs/
+
+batch.metrics.enabled: false
+batch.metrics.profiling.readprocesswrite.enabled: false
+spring.batch.initialize-schema: never
+spring.main.allow-bean-definition-overriding: true
+job.test: hello
+
+spring.datasource.url: jdbc:h2:mem:db
+spring.datasource.driverClassName: org.h2.Driver
+spring.datasource.username: sa
+spring.datasource.password: password
+spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+spring.h2.console.enabled: true 

@@ -1,6 +1,6 @@
 server.port: 8090
 
-batch.config.package-javaconfig: com.test
+batch.config.package-javaconfig: com.test.job
 batch.web.operations.base: /batch
 
 logging.file.path: c://batch/logs/

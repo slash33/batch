@@ -1,4 +1,4 @@
-package com.test.batch.jobs.service;
+package com.test.service;
 
 public interface LoggerService {
 

@@ -1,7 +1,7 @@
-package com.test.batch.jobs.service.impl;
+package com.test.service.impl;
 
 import org.springframework.stereotype.Service;
-import com.test.batch.jobs.service.LoggerService;
+import com.test.service.LoggerService;
 
 @Service
 public class LoggerServiceImpl implements LoggerService {

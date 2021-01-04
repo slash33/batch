@@ -1,4 +1,4 @@
-package com.test.batch.jobs.anneeproduction.job;
+package com.test.task;
 
 import org.springframework.batch.core.StepContribution;
 import org.springframework.batch.core.scope.context.ChunkContext;
@@ -7,9 +7,9 @@ import org.springframework.batch.repeat.RepeatStatus;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import com.test.batch.jobs.service.LoggerService;
+import com.test.service.LoggerService;
 
-public class Task1Tasklet implements Tasklet, InitializingBean {
+public class TaskTasklet implements Tasklet, InitializingBean {
 
   @Value("${job.test}")
   private String test;
